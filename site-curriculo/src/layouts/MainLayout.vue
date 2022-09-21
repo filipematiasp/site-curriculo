@@ -23,6 +23,6 @@
 </template>
 <style>
   body {
-    background: linear-gradient(to right, #E6DACE 0%, #E6DACE 50%, white 0%, white 50%)
+    background: linear-gradient(to right, #E6DACE 0%, #E6DACE 38%, white 0%, white 50%)
   }
 </style>

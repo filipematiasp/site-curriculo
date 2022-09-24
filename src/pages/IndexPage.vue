@@ -1,13 +1,13 @@
 <template>
   <q-card class="my-card fixed-center">
     <q-card-section horizontal>
-      <div class="bk-card q-pa-xl">
-        <q-avatar size="240px">
+      <div class="bk-card q-px-xl q-py-md">
+        <q-avatar size="200px">
           <img src="../assets/profile-filipe.jpg"/>
         </q-avatar>
         <h1>Filipe Matias</h1>
         <hr/>
-        <h2>Desenvolvedor web</h2>
+        <h3>Desenvolvedor web</h3>
         <q-card-actions class="q-mt-md" align="around">
           <q-btn flat size="lg" icon="fa-brands fa-linkedin-in" href="https://www.linkedin.com/in/filipe-matias-227151115/" target="_black"></q-btn>
           <q-btn flat size="lg" icon="fa-brands fa-github" href="https://github.com/filipematiasp" target="_black"></q-btn>
@@ -20,11 +20,11 @@
           <q-btn rounded  color="primary" label="CURRÍCULO"/>
           <q-btn rounded label="PROJETOS"/>
         </div>
-        <h3>Olá sou engenheiro de computação e atuo na área de desenvolvimento web desde 2020
+        <p>Olá sou engenheiro de computação e atuo na área de desenvolvimento web desde 2020
           utilizando as linguagens Javascript, Nodejs, e banco de dados não relacional mongoDB
           e no front com Vue sendo minhas principais stack atualmente que utilizo profissionalmente
           e em projetos pessoais, tenho por objetivo me tornar especialista em desenvolvimento web.
-        </h3>
+        </p>
       </q-card-section>
     </q-card-section>
   </q-card>
@@ -51,7 +51,7 @@ export default defineComponent({
   }
   h1, h2, h3, h4 {
     margin: 0;
-    line-height: 1.6;
+    line-height: 1.5;
   }
   h1 {
     text-align: center;
@@ -62,6 +62,7 @@ export default defineComponent({
     font-size: 20px;
   }
   h3 {
+    text-align: center;
     font-size: 18px;
   }
   h4 {
@@ -71,5 +72,11 @@ export default defineComponent({
     border: 0;
     width: 80px;
     border-top: 1px solid #094CFA;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size : 16px
   }
 </style>

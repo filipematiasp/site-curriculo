@@ -17,8 +17,8 @@
         <span class="text-big q-mb-md">Olá</span>
         <h2 class="q-mb-md">Meu perfil e meus projetos</h2>
         <div class="q-gutter-sm q-mb-lg">
-          <q-btn rounded  color="primary" label="CURRÍCULO"/>
-          <q-btn rounded label="PROJETOS"/>
+          <q-btn rounded  color="primary" label="CURRÍCULO" to="/curriculo"/>
+          <q-btn rounded label="PROJETOS" to="projetos"/>
         </div>
         <p>Olá sou engenheiro de computação e atuo na área de desenvolvimento web desde 2020
           utilizando as linguagens Javascript, Nodejs, e banco de dados não relacional mongoDB

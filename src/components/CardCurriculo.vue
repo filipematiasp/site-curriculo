@@ -28,9 +28,7 @@ console.log(props.dtInit)
 
 <style scoped>
 .my-card {
-  width: 100%;
-  height: 100%;
-  max-height: 250px;
-  max-width: 850px
+  width: 850px;
+  height: 250px;
 }
 </style>

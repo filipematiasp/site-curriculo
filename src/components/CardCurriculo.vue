@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-const props = defineProps({
+defineProps({
   dtInit: String,
   cargo: String,
   empresa: String,
@@ -23,7 +23,6 @@ const props = defineProps({
   text2: String
 })
 
-console.log(props.dtInit)
 </script>
 
 <style scoped>

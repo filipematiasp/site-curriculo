@@ -5,7 +5,7 @@
         <div class="text-h6 text-weight-bold text-primary q-mb-lg">{{projectName}}</div>
         <div class="text-body2">{{text}}</div>
         <div class="text-body2">{{text2}}</div>
-        <q-btn color="primary" label="Github" icon="fa-brands fa-github" href="https://github.com/filipematiasp/site-curriculo" target="_black"></q-btn>
+        <q-btn color="primary" :label=btnName :icon=brand :href=url target="_black"></q-btn>
       </q-card-section>
         <q-img class="col-5 " :src="require('../assets/' + img)"  style="height: auto; max-height: 350px"/>
     </q-card-section>
@@ -17,7 +17,10 @@ defineProps({
   projectName: String,
   img: String,
   text: String,
-  text2: String
+  text2: String,
+  url: String,
+  brand: String,
+  btnName: String
 })
 
 </script>

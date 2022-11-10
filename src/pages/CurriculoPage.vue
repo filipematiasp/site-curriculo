@@ -90,7 +90,7 @@
         />
     </div>
     <div class="q-pa-md row q-gutter-md justify-center">
-        <q-card class="my-competencias">
+        <q-card class="my-skills">
             <div class="q-pa-lg text-h5 text-weight-bolder">Competências</div>
             <q-card-section class="q-pt-lg q-pl-lg row justify-around">
                 <div>
@@ -135,7 +135,7 @@ import CardCurriculo from '../components/CardCurriculo.vue'
 </script>
 
 <style scoped>
-.my-competencias {
+.my-skills {
     width: 850px;
     height: 430px;
   }

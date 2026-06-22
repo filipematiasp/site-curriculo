@@ -24,10 +24,7 @@
               <q-btn rounded  color="primary" label="CURRÍCULO" to="/curriculo"/>
               <q-btn rounded label="PROJETOS" to="projetos"/>
             </div>
-            <p>Olá sou engenheiro de computação e atuo na área de desenvolvimento web desde 2020
-              utilizando as linguagens Javascript, Nodejs, e banco de dados não relacional mongoDB
-              e no front com Vue sendo minhas principais stack atualmente que utilizo profissionalmente
-              e em projetos pessoais, tenho por objetivo me tornar especialista em desenvolvimento web.
+            <p>Olá! Sou engenheiro de computação e atuo na área de desenvolvimento web desde 2020. Trabalho com JavaScript e Node.js no back-end, utilizando bancos de dados como MongoDB e PostgreSQL. No front-end, minha principal stack é Vue.js, que aplico tanto em projetos profissionais quanto pessoais. Além disso, possuo experiência com APIs REST e integração de serviços externos.
             </p>
           </div>
         </q-card-section>
@@ -43,6 +40,7 @@ export default defineComponent({
   name: 'IndexPage'
 })
 </script>
+
 <style>
   .text-big {
     font-weight: bold;
